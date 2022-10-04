@@ -1,0 +1,51 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - socketio > socket.io > socket.io-parser > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > engine.io > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-adapter > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-client > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2022-10-04T14:29:34.792Z'
+  'npm:hoek:20180212':
+    - log4js > loggly > request > hawk > hoek:
+        patched: '2022-10-04T14:29:34.792Z'
+    - log4js > loggly > request > hawk > boom > hoek:
+        patched: '2022-10-04T14:29:34.792Z'
+    - log4js > loggly > request > hawk > sntp > hoek:
+        patched: '2022-10-04T14:29:34.792Z'
+    - log4js > loggly > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-04T14:29:34.792Z'
+  'npm:ms:20170412':
+    - socketio > socket.io > socket.io-parser > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > engine.io > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-adapter > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-client > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+    - socketio > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-10-04T14:29:34.792Z'
+  'npm:tunnel-agent:20170305':
+    - log4js > loggly > request > tunnel-agent:
+        patched: '2022-10-04T14:29:34.792Z'
